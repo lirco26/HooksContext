@@ -1,0 +1,48 @@
+body {
+    font-size: 20px;
+    font-family: "Segoe UI";
+    background: #175767;
+    color: white;
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    height: 15vh;
+}
+
+.shopping-api {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopping-list-component {
+    margin: 10px;
+}
+
+input {
+    font-size: 1em;
+    height: 1.5em;
+}
+
+button {
+    font-size: 1em;
+    font-family: "Segoe UI";
+}
+
+.items-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 1.3em;
+}
